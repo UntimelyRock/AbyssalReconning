@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://chtnqjreghet1"]
+
+[node name="ShipGenerator" type="Node2D"]

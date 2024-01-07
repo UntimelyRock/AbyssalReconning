@@ -1,0 +1,7 @@
+res://Scenes/Levels/TestMap.tscn
+res://Scripts/GameController.gd
+res://Scripts/MissionWorldController.gd
+res://Scenes/GameController.tscn
+res://Scenes/Menus/MainMenu.tscn
+res://Scenes/MissionWorldBase.tscn
+res://Scenes/Levels/ShipGenerator.tscn

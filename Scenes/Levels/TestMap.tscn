@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://cb5l3uyjy3xui"]
+
+[ext_resource type="Script" path="res://Scripts/MapGenerator.gd" id="1_8og4y"]
+
+[sub_resource type="Environment" id="Environment_gd7xk"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_o24xu"]
+
+[node name="TestMap" type="Node2D"]
+script = ExtResource("1_8og4y")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_gd7xk")
+camera_attributes = SubResource("CameraAttributesPractical_o24xu")

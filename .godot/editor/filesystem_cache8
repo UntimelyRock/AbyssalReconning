@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1704663833
+icon.svg::CompressedTexture2D::7242383978630858637::1701304083::1701304094::1::::<><>::
+::res://Assets/::1701304225
+::res://Scenes/::1704583192
+GameController.tscn::PackedScene::5846862205662148772::1704583192::0::1::::<><>::uid://c7acu0d1v0oy2::::res://Scenes/Menus/MainMenu.tscn<>res://Scripts/GameController.gd
+MissionWorldBase.tscn::PackedScene::2619473363074334086::1704583192::0::1::::<><>::res://Scripts/MissionWorldController.gd
+::res://Scenes/Levels/::1704583192
+ShipGenerator.tscn::PackedScene::5304204842949873416::1704583192::0::1::::<><>::
+TestMap.tscn::PackedScene::4905680520780223500::1704583192::0::1::::<><>::res://Scripts/MapGenerator.gd
+::res://Scenes/Menus/::1704583192
+MainMenu.tscn::PackedScene::7019042832595419803::1704583192::0::1::::<><>::res://Scripts/MainMenu.gd
+::res://Scripts/::1704583190
+GameController.gd::GDScript::-1::1704583190::0::1::::<>Node2D<>::
+MainMenu.gd::GDScript::-1::1701306239::0::1::::<>Control<>::
+MapGenerator.gd::GDScript::-1::1701321916::0::1::::<>Node2D<>::
+MissionWorldController.gd::GDScript::-1::1704583190::0::1::::<>Node2D<>::

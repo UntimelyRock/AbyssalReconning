@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpki74bcdx27q"]
+
+[ext_resource type="PackedScene" uid="uid://c7acu0d1v0oy2" path="res://Scenes/Menus/MainMenu.tscn" id="1_fybum"]
+[ext_resource type="Script" path="res://Scripts/GameController.gd" id="1_mu1ek"]
+
+[node name="GameController" type="Node2D"]
+script = ExtResource("1_mu1ek")
+
+[node name="MainMenu" parent="." instance=ExtResource("1_fybum")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 1152.0
+offset_bottom = 648.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[connection signal="startGame" from="MainMenu" to="." method="_on_main_menu_start_game"]
